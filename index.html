@@ -1,47 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>assignment-01</title>
     <!-- font name link -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <!-- font awesome cdn link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <!-- header section start -->
 
     <header>
-        <nav id="header-title">
-            <div id="main-title">
-                <h1>Influencer products</h1>
-            </div>
+      <nav id="header-title">
+        <div id="main-title">
+          <h1>Influencer products</h1>
+        </div>
 
-            <div id="header-menu">
-                <a href="">Home</a>
-                <a href="">Products</a>
-                <a href="">Sign up</a>
-                <a href="">Log In</a>
+        <div id="header-menu">
+          <a href="#btn">Home</a>
+          <a href="#feature-btn">Products</a>
+          <a href="">Sign up</a>
+          <a href="">Log In</a>
 
-                <span style="margin-left: 30px;"><i class="fa-solid fa-magnifying-glass"></i>
-                </span>
-                <span style="margin-left: 30px;"><i class="fa-solid fa-cart-shopping"></i></span>
-
-            </div>
-        </nav>
-
+          <span style="margin-left: 30px"
+            ><i class="fa-solid fa-magnifying-glass"></i>
+          </span>
+          <span style="margin-left: 30px"
+            ><i class="fa-solid fa-cart-shopping"></i
+          ></span>
+        </div>
+      </nav>
     </header>
 
     <!-- header section end -->
@@ -49,48 +53,262 @@
     <!-- banner section start -->
 
     <section id="banner-section">
-        <div>
-            <h1 id="banner-title">
-                Start your Journey as <br>
-                Influencer
-            </h1>
-            <p id="banner-p">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem <br> vestibulum sed scelerisque eros.
-                Lectus faucibus.
-            </p>
-            <button id="btn">
-                Preebook now
-                <span><i class="fa-solid fa-arrow-right"></i></span>
-            </button>
+      <div>
+        <h1 id="banner-title">
+          Start your Journey as <br />
+          Influencer
+        </h1>
+        <p id="banner-p">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem <br />
+          vestibulum sed scelerisque eros. Lectus faucibus.
+        </p>
+        <button id="btn">
+          Preebook now
+          <span><i class="fa-solid fa-arrow-right"></i></span>
+        </button>
+      </div>
 
-        </div>
-
-        <div>
-            <img src="./images/main-camera.png"">
-        </div>
-
+      <div><img src="./images/main-camera.png""></div>
     </section>
 
     <!-- banner section end -->
 
-    <!-- brand name section start -->
-
+    <!-- brand section start -->
     <div id="brand">
-        <img src="./logos/Alibaba.svg" alt="">
-        <img src="./logos/Amazon.svg" alt="">
-        <img src="./logos/Daraz.pk Logo.svg" alt="">
-        <img src="./logos/Ebay.svg" alt="">
-        <img src="./logos/Rakuten.svg" alt="">
-        <img src="./logos/Target.svg" alt="">
-        <img src="./logos/Walmart.svg" alt="">
+      <img src="./logos/Alibaba.svg" alt="" />
+      <img src="./logos/Amazon.svg" alt="" />
+      <img src="./logos/Daraz.pk Logo.svg" alt="" />
+      <img src="./logos/Ebay.svg" alt="" />
+      <img src="./logos/Rakuten.svg" alt="" />
+      <img src="./logos/Target.svg" alt="" />
+      <img src="./logos/Walmart.svg" alt="" />
     </div>
 
-    <!-- brand name section end -->
+    <!-- featured section -->
 
+    <main class="main">
+      <section id="product">
+        <h1 id="product-title">Popular Collection</h1>
+        <div id="card-container">
+          <div class="card">
+            <div class="card-image">
+              <img src=" ./images/tripod.png" alt="" />
+            </div>
+            <div class="card-2nd-div">
+              <h2 id="card-title">Flex Tripod</h2>
+              <h4 id="card-balence">$50.48</h4>
+              <span style="color: #fb8200"
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i
+              ></span>
+              <span>4.99</span>
+              <p class="card-p">
+                Wordwide shifting available <br />
+                Buyers protection possible!
+              </p>
+            </div>
+          </div>
+          <!-- 2nd card -->
+          <div class="card">
+            <div class="card-image">
+              <img src="./images/mic.png" alt="" />
+            </div>
+            <div class="card-2nd-div">
+              <h2 id="card-title">microphone</h2>
+              <h4 id="card-balence">$120.25</h4>
+              <span style="color: #fb8200"
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i
+              ></span>
+              <span>4.99</span>
+              <p class="card-p">
+                Wordwide shifting available <br />
+                Buyers protection possible!
+              </p>
+            </div>
+          </div>
+          <!-- 3rd card -->
+          <div class="card">
+            <div class="card-image">
+              <img src="./images/airpod.png" alt="" />
+            </div>
+            <div class="card-2nd-div">
+              <h2 id="card-title">Airbuds</h2>
+              <h4 id="card-balence">$100.00</h4>
+              <span style="color: #fb8200"
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i
+              ></span>
+              <span>4.99</span>
+              <p class="card-p">
+                Wordwide shifting available <br />
+                Buyers protection possible!
+              </p>
+            </div>
+          </div>
+          <!-- 4th card -->
+          <div class="card">
+            <div class="card-image">
+              <img src="./images/drone.png" alt="" />
+            </div>
+            <div class="card-2nd-div">
+              <h2 id="card-title">Drone</h2>
+              <h4 id="card-balence">$980.25</h4>
+              <span style="color: #fb8200"
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i
+              ></span>
+              <span>4.99</span>
+              <p class="card-p">
+                Wordwide shifting available <br />
+                Buyers protection possible!
+              </p>
+            </div>
+          </div>
+          <!-- 5th card -->
+          <div class="card">
+            <div class="card-image">
+              <img src="./images/lights.png" alt="" />
+            </div>
+            <div class="card-2nd-div">
+              <h2 id="card-title">Light Setup</h2>
+              <h4 id="card-balence">$1200.00</h4>
+              <span style="color: #fb8200"
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i
+              ></span>
+              <span>4.99</span>
+              <p class="card-p">
+                Wordwide shifting available <br />
+                Buyers protection possible!
+              </p>
+            </div>
+          </div>
+          <!-- 6th card -->
+          <div class="card">
+            <div class="card-image">
+              <img src="./images/setup.png" alt="" />
+            </div>
+            <div class="card-2nd-div">
+              <h2 id="card-title">Photoshoot set</h2>
+              <h4 id="card-balence">$820.40</h4>
+              <span style="color: #fb8200"
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i
+              ></span>
+              <span>4.99</span>
+              <p class="card-p">
+                Wordwide shifting available <br />
+                Buyers protection possible!
+              </p>
+            </div>
+          </div>
+          <!-- 7th card -->
+          <div class="card">
+            <div class="card-image">
+              <img src="./images/camera.png" alt="" />
+            </div>
+            <div class="card-2nd-div">
+              <h2 id="card-title">Vlogging Camera</h2>
+              <h4 id="card-balence">$1800.80</h4>
+              <span style="color: #fb8200"
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i
+              ></span>
+              <span>4.99</span>
+              <p class="card-p">
+                Wordwide shifting available <br />
+                Buyers protection possible!
+              </p>
+            </div>
+          </div>
+          <!-- 8th card -->
+          <div class="card">
+            <div class="card-image">
+              <img src="./images/single-light.png" alt="" />
+            </div>
+            <div class="card-2nd-div">
+              <h2 id="card-title">Green Screen</h2>
+              <h4 id="card-balence">$25.48</h4>
+              <span style="color: #fb8200"
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i
+              ></span>
+              <span>4.99</span>
+              <p class="card-p">
+                Wordwide shifting available <br />
+                Buyers protection possible!
+              </p>
+            </div>
+          </div>
+          <!-- 9 card -->
+          <div class="card">
+            <div class="card-image">
+              <img src="./images/action.png" alt="" />
+            </div>
+            <div class="card-2nd-div">
+              <h2 id="card-title">Action Camera</h2>
+              <h4 id="card-balence">$380.00</h4>
+              <span style="color: #fb8200"
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i
+              ></span>
+              <span>4.99</span>
+              <p class="card-p">
+                Wordwide shifting available <br />
+                Buyers protection possible!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- feature section start -->
 
+    <section id="feature-section">
+      <div>
+        <img src="./images/gear.png" alt="" />
+      </div>
 
+      <div>
+        <h1 class="feature-title">Featured products at one place</h1>
+        <p class="feature-p">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor <br> do amet
+          sint. Velit officia consequat duis enim velit mollit. <br> Exercitation
+          veniam consequat sunt nostrud amet.
+        </p>
+        <button id="feature-btn">Join Now <i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+    </section>
+    <!-- featured section end -->
 
+    <!-- footer section start -->
 
-</body>
-
+    <footer>
+      <div>
+        <h1 id="footer-title">Influencer products</h1>
+        <p style="font-size: 14px; color: #d9dbe1">
+          Copyright © 2020 influencer products
+        </p>
+        <p style="margin-left: 70px; font-size: 14px; color: #d9dbe1">
+          All rights reserved
+        </p>
+        <samp id="footer-icon"
+          ><i class="fa-brands fa-instagram"></i
+          ><i class="fa-brands fa-chrome"></i
+          ><i class="fa-brands fa-twitter"></i
+          ><i class="fa-brands fa-youtube"></i
+        ></samp>
+      </div>
+    </footer>
+  </body>
 </html>
